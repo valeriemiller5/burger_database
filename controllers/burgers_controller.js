@@ -33,6 +33,7 @@ router.put('/burgers/update', (req, res) => {
             id: req.body.burger_id
         }
     }).then(dbBurger => {
+        // console.log(dbBurger)
         res.json('/');
     })
 });
